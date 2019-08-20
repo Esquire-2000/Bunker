@@ -1,4 +1,3 @@
-import msvcrt
 import colorama
 from colorama import Fore,Back,Style
 colorama.init()
@@ -26,4 +25,3 @@ else:
     else:
         print(Fore.GREEN+'You can bunk the next %d classes.' % classesYouCanMiss+Style.RESET_ALL)
 
-msvcrt.getch()
